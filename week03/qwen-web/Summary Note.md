@@ -42,7 +42,7 @@ $ pwd
 $ ls
 $ python3 chat.py #python 파일 실행
 ```
-- 브라우저 주소란에 'http://localhost:8000/'을 입력하십시오.
+- 브라우저 주소란에 http://localhost:8000/ 을 입력하십시오.
 - 만일 모델을 변경하고자 한다면, 'nano chat.py'로 해당 파일의 모델을 수정하여야 합니다.
 
 # 쉘 스크립트 작성법 복습
