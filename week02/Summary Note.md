@@ -70,7 +70,7 @@ git switch -d <commit hash value here> #커밋 변경(커밋 해시의 버전으
 git diff <commit hash01> <commit hash02> #각 커밋 변경 사항 비교. 출력된 내용의 +, - 표시로 말미암아 비교 용이
 ```
 
--깃 브랜치 명령어
+- 깃 브랜치 명령어
 ```git
 git switch -c <branch_name> #브랜치 만들기
 git switch <branch_name> #브랜치 이동
