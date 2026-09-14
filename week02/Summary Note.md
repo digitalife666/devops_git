@@ -35,7 +35,7 @@ cat 'example' >> 'example' #앞의 파일 내용에 결부하여 파일에 추�
 !ls #앞전의 ls로 시작된 명령어 재실행
 ```
 
-#Git 관련...
+# Git 관련...
 - 기본 프로파일 설정에 대하여 다룹니다.
 ```git
 git config --global user.name "이름" #사용자 이름 여기에...
@@ -77,7 +77,7 @@ git switch <branch_name> #브랜치 이동
 git branch #현재 브랜치 조회
 ```
 
-#GitHub에 대하여.
+# GitHub에 대하여.
 - gh를 사용하여 GitHub와 연결할 수 있습니다.
 - gh --version을 통하여 설치 여부 조회가 가능합니다.
 - GitHub 로그인 절차입니다.
