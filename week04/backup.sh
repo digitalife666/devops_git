@@ -36,3 +36,6 @@ fi
 # 5) 목록
 echo "현재 보관 중인 백업: "
 ls -l "$BACKUP_DIR"
+# 로그 기록
+echo "$(date '+%Y-%m-%d %H:%M:%S') 백업 완료: $FILENAME" >> "$BACKUP_DIR/backup.log"
+echo "로그 기록 완료..."
