@@ -2,6 +2,7 @@
 
 # 01. kubectl get nodes 결과
 - 하단의 이미지를 확인하여 주십시오.
+- [결과 이미지](week09/kubectl_get_nodes.png)
 
 # 02. Pod 제거 후 새 Pod가 생성된 화면
 - 하단의 이미지를 확인하여 주십시오.
