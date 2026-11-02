@@ -28,3 +28,7 @@
 # [7주차](https://github.com/digitalife666/devops_git/tree/devops/week07)
 
 - 도커 컴포즈...
+
+# [9주차](https://github.com/digitalife666/devops_git/tree/devops/week09)
+
+- 쿠버네티스 활용...
