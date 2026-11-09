@@ -36,3 +36,7 @@
 # [10주차](https://github.com/digitalife666/devops_git/tree/devops/week10/guestbook)
 
 - 쿠버네티스 추가 학습 및 배포, 서비스 및 yaml 파일 직접 작성 및 배포 학습...
+
+# [11주차](https://github.com/digitalife666/devops_git/tree/devops/week07)
+
+- 쿠버네티스 설정 및 상태 점검... (7주차 내용 업데이트)
