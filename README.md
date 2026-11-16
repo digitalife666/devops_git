@@ -40,3 +40,7 @@
 # [11주차](https://github.com/digitalife666/devops_git/tree/devops/week07)
 
 - 쿠버네티스 설정 및 상태 점검... (7주차 내용 업데이트)
+
+# [12주차](https://github.com/digitalife666/devops_git/tree/devops/week12)
+
+- 깃허브 워크플로우, CD CI 개념 파악... (망함)
