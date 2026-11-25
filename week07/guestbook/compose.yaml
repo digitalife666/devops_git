@@ -8,7 +8,6 @@ services:
     depends_on:
       web:
         condition: service_healthy
-
   web:
     build: .
     expose:
@@ -25,7 +24,7 @@ services:
       test: ["CMD", "python", "-c",
         "import urllib.request;
         urllib.request.urlopen(
-        'http://localhost:5000/readyz')"]   # app.py 참고
+        'http://localhost:5000/readyz')"]
       interval: 5s
       timeout: 3s
       retries: 5
@@ -36,19 +35,20 @@ services:
           path: ./app.py
         - action: rebuild
           path: ./templates
-
   redis:
     image: redis:7-alpine
-    command: ["redis-server", "--requirepass", "${REDIS_PASSWORD}", "--appendonly", "yes"]
+    command: ["redis-server",
+      "--requirepsss", "${REDIS_PASSWORD}",
+      "--appendonly", "yes"]
     volumes:
       - redis-data:/data
     healthcheck:
-      test:
-        - CMD-SHELL
-        - "REDISCLI_AUTH=${REDIS_PASSWORD} redis-cli --raw ping | grep -qx PONG"
+      test: ["CMD", "redis-cli", "-a",
+        "${REDIS_PASSWORD}", "ping"]
       interval: 5s
       timeout: 3s
       retries: 5
+
 
 volumes:
   redis-data:
