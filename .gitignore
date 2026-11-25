@@ -1,2 +1,6 @@
+HEAD
 .env
 guestbook/k8s/secret.yaml
+week04/backups/
+week04/restore-check/
+origin/devops
